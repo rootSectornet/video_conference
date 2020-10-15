@@ -1,0 +1,38 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "experiment webrtc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "eslint index.js",
+    "serve": "vue-cli-service serve"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "tedi",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "awaitqueue": "^2.3.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "browserify-middleware": "^8.1.1",
+    "events": "^3.2.0",
+    "express": "^4.15.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fluent-ffmpeg-multistream": "^1.0.0",
+    "https": "^1.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0",
+    "vue": "^2.6.12",
+    "vue-axios": "^2.1.5",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.4.3",
+    "vue-template-compiler": "^2.6.12",
+    "wrtc": "^0.4.6"
+  }
+}

@@ -1,0 +1,27 @@
+// 
+// authentication.scss
+//
+
+
+// authentication home icon
+.home-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.account-pages{
+    .input-group-text{
+        border-left: none;
+        background-color: transparent;
+        border-radius: 0 0.5rem 0.5rem 0 !important;
+    }
+    
+    .LoginInput{
+        border-right: none;
+    }
+}

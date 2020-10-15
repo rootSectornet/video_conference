@@ -1,0 +1,94 @@
+{
+  "name": "skote",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build &&  rm -rf ../server/public/* && cp -r dist/* ../server/public/",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@toast-ui/vue-chart": "^1.1.2",
+    "apexcharts": "^3.12.0",
+    "axios": "^0.19.2",
+    "base-64": "^0.1.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.1.0",
+    "chart.js": "^2.9.3",
+    "chartist": "^0.11.4",
+    "core-js": "^3.4.4",
+    "firebase": "^7.7.0",
+    "metismenujs": "^1.1.0",
+    "sass": "^1.24.2",
+    "sass-loader": "^8.0.0",
+    "simplebar-vue": "^1.4.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "sweetalert2": "^9.5.4",
+    "utf8": "^3.0.0",
+    "v-click-outside": "^3.0.1",
+    "v-mask": "^2.0.2",
+    "vue": "^2.6.10",
+    "vue-apexcharts": "^1.5.1",
+    "vue-axios": "^2.1.5",
+    "vue-browser-detect-plugin": "^0.1.13",
+    "vue-chartist": "^2.2.1",
+    "vue-chartjs": "^3.5.0",
+    "vue-content-loader": "^0.2.3",
+    "vue-context": "^5.0.0",
+    "vue-cookies": "^1.7.0",
+    "vue-device-detector": "^1.1.3",
+    "vue-form-wizard": "^0.8.4",
+    "vue-image-lightbox": "^7.0.0",
+    "vue-lazyload": "^1.3.3",
+    "vue-meta": "^2.3.1",
+    "vue-multiselect": "^2.1.6",
+    "vue-offline": "^2.0.8",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.3",
+    "vue-slide-bar": "^1.2.0",
+    "vue-sweetalert2": "^3.0.1",
+    "vue-switches": "^2.0.1",
+    "vue-toasted": "^1.1.27",
+    "vue-top-progress": "^0.7.0",
+    "vue2-animate": "^2.1.3",
+    "vue2-datepicker": "^3.3.0",
+    "vue2-dropzone": "^3.6.0",
+    "vue2-editor": "^2.10.2",
+    "vue2-google-maps": "^0.10.7",
+    "vuedraggable": "^2.23.2",
+    "vuelidate": "^0.7.4",
+    "vuetable-2": "^1.7.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-mixed-spaces-and-tabs": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "iceServers" : [
+        {
+           "urls": "turn:turn.desktopip.com:3478",
+         "username": "dexip",
+         "credential": "p@55w0rd"
+       }
+    ],
+    "socketEvent" : {
+        "join" : "JOINROOM",
+        "ready" : "ROOMREADY",
+        "offer" : "OFFER",
+        "answer" : "ANSWER",
+        "candidate" : "CANDIDATE",
+        "contacts" : "CONTACTS",
+        "disconnecr" : "DISCONNET"
+    }
+}

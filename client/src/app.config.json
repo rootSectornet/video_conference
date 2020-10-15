@@ -1,0 +1,18 @@
+{
+  "title": "DIP MEETING - DesktopIP",
+  "description": "DIP MEETING is apps for video conference.",
+  "host" :  "https://studio.desktopip.com/",
+  "hostapps" : "https://studio.desktopip.com/",
+  "user_example" : "user01",
+  "link_apps_list":"backend/?c=apps_group&m=load_apps",
+  "icon_apps" : "backend/assets/icons/",
+  "generatetoken" : "generateToken",
+  "pathstorage" : "rest-api/",
+  "uid" :"NjE=",
+  "password" : "UnAxMjM0NTY=",
+  "pathdirectory":"getDirectory",
+  "pathcreatefolder":"createDirectory",
+  "openapps" : "apps-edit/?pt=",
+  "openfile" : "openWord",
+  "profile" : "action/get_user_profile.php"
+}
